@@ -14,4 +14,4 @@ res=None
 if op==1:
     res=sumar(n1,n2)
     
-print("el resultado  de la suma es: ", res)
+print("el resultado es: ", res)

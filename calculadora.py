@@ -1,11 +1,12 @@
 
 
+def sumar(n1,n2):
+    return n1+n2
+
 print("calculadora ejemplo")
 print()
 print("1). SUMAR")
 
-def sumar(n1,n2):
-    return n1+n2
 
 op=int(input("digite una opcion: "))
 n1=int(input("digite el numero: "))
@@ -15,3 +16,4 @@ if op==1:
     res=sumar(n1,n2)
     
 print("el resultado es: ", res)
+print("este es un cambio que hice al final para probar")
